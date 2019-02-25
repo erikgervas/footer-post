@@ -17,14 +17,15 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   height: 10vh;
   background-color: black;
-  justify-content: center;
+  align-items: center;
 }
 
 .bordered-box {
   width: 10%;
   border: 5px solid darkgoldenrod;
-  height: 85%;
   background-color: tan;
+  flex-grow: 1;
 }
